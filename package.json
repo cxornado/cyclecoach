@@ -1,0 +1,29 @@
+{
+  "name": "cyclecoach-landing",
+  "version": "1.0.0",
+  "description": "CycleCoach landing page - AI-powered cycling coach app",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "build": "echo 'No build step required for static site'",
+    "deploy": "echo 'Deploy via Netlify or GitHub Actions'",
+    "test": "echo 'No tests configured yet'"
+  },
+  "keywords": [
+    "cycling",
+    "coaching",
+    "ai",
+    "landing-page",
+    "tailwind"
+  ],
+  "author": "CycleCoach Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cyclecoach-landing.git"
+  },
+  "homepage": "https://cyclecoach.site"
+} 
