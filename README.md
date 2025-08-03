@@ -45,4 +45,10 @@ A modern, responsive landing page for CycleCoach - an AI-powered cycling coach a
 
 ## Domain
 
-The landing page is designed for: https://cyclecoach.site 
+The landing page is designed for: https://cyclecoach.site
+
+## Deployment
+
+- GitHub repository: https://github.com/cxornado/cyclecoach
+- Automated deployments via GitHub Actions and Netlify
+- Preview deployments for safe testing 
