@@ -231,12 +231,12 @@ CREATE INDEX idx_training_plans_user_active ON training_plans(user_id, is_active
 CREATE INDEX idx_user_goals_progress ON user_goals(user_id, progress_percentage);
 CREATE INDEX idx_third_party_user_service ON third_party_connections(user_id, service_name);
 
--- Add comments for documentation
-COMMENT ON TABLE users IS 'Main user accounts for CycleCoach platform';
-COMMENT ON TABLE equipment IS 'User equipment and devices for tracking';
-COMMENT ON TABLE third_party_connections IS 'Connections to external services like Strava, Garmin, Zwift';
-COMMENT ON TABLE ride_data IS 'Individual ride/activity data from various sources';
-COMMENT ON TABLE training_plans IS 'AI-generated and custom training plans';
-COMMENT ON TABLE user_goals IS 'User-defined goals and progress tracking';
-COMMENT ON TABLE ai_models IS 'Machine learning models for coaching features';
-COMMENT ON TABLE user_sessions IS 'User authentication sessions and security'; 
+-- Add comments for documentation (MySQL syntax)
+ALTER TABLE users COMMENT = 'Main user accounts for CycleCoach platform';
+ALTER TABLE equipment COMMENT = 'User equipment and devices for tracking';
+ALTER TABLE third_party_connections COMMENT = 'Connections to external services like Strava, Garmin, Zwift';
+ALTER TABLE ride_data COMMENT = 'Individual ride/activity data from various sources';
+ALTER TABLE training_plans COMMENT = 'AI-generated and custom training plans';
+ALTER TABLE user_goals COMMENT = 'User-defined goals and progress tracking';
+ALTER TABLE ai_models COMMENT = 'Machine learning models for coaching features';
+ALTER TABLE user_sessions COMMENT = 'User authentication sessions and security'; 
